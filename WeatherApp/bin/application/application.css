@@ -1,0 +1,105 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/* Set the background color for the main window */
+.default-background {
+    -fx-background-color: #f0f0f0; /* Light gray */
+}
+
+.evening-background {
+    -fx-background-image: url("resources/img.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+/* Style for the forecast box */
+.forecast-box {
+    -fx-background-color: rgba(224, 224, 224, 0.3); /* Light gray background with transparency */
+    -fx-padding: 10; /* Padding inside the forecast box */
+    -fx-alignment: center; /* Center alignment for children */
+}
+
+/* Style for the search bar */
+.hbox {
+    -fx-background-color: rgba(255, 255, 255, 0.7); /* More transparent white */
+    -fx-padding: 10; /* Padding around the HBox */
+    -fx-border-color: rgba(204, 204, 204, 0.8); /* Light gray border with slight transparency */
+    -fx-border-width: 1; /* Border width */
+}
+
+/* Style for TextField */
+.text-field {
+    -fx-pref-width: 200; /* Preferred width */
+    -fx-background-color: rgba(255, 255, 255, 0.7); /* More transparent white */
+    -fx-border-color: rgba(204, 204, 204, 0.8); /* Light gray border */
+    -fx-border-radius: 5; /* Rounded corners */
+    -fx-padding: 5; /* Padding inside the TextField */
+}
+
+/* Style for Buttons */
+.button {
+    -fx-background-color: #FFA500; /* Light orange */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-border-radius: 5; /* Rounded corners */
+    -fx-padding: 10 15; /* Vertical and horizontal padding */
+}
+
+/* Style for Button on hover */
+.button:hover {
+    -fx-background-color: #FF8C00; /* Darker orange shade for hover */
+}
+
+/* Style for Labels */
+.label {
+    -fx-font-size: 14px; /* Font size */
+    -fx-text-fill: rgba(51, 51, 51, 0.9); /* Dark gray text color with slight transparency */
+}
+
+/* Style for history entries */
+.label.history-entry {
+    -fx-padding: 5; /* Padding around history entries */
+    -fx-background-color: rgba(233, 236, 239, 0.7); /* Light background with more transparency */
+    -fx-border-color: rgba(206, 212, 218, 0.8); /* Light border with transparency */
+    -fx-border-radius: 3; /* Rounded corners */
+}
+
+/* Hover effect for history entries */
+.label.history-entry:hover {
+    -fx-background-color: rgba(209, 231, 221, 0.7); /* Light green on hover with more transparency */
+}
+
+/* Style for the history box */
+.history-box {
+    -fx-background-color: rgba(208, 208, 208, 0.8); /* Light gray background for history box with slight transparency */
+    -fx-border-color: rgba(153, 153, 153, 0.9); /* Gray border for history box */
+    -fx-padding: 10; /* Padding inside the history box */
+}
+
+/* Style for forecast day boxes */
+.day-box {
+    -fx-background-color: rgba(255, 255, 255, 0.7); /* White background for forecast days with slight transparency */
+    -fx-padding: 10; /* Padding inside the VBox */
+    -fx-border-color: rgba(204, 204, 204, 0.8); /* Light gray border with transparency */
+    -fx-border-radius: 5; /* Rounded corners */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.0, 0, 1); /* Subtle shadow */
+}
+
+/* Style for option pane */
+.hbox.options {
+    -fx-padding: 10; /* Padding around the options pane */
+    -fx-background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    -fx-border-color: rgba(204, 204, 204, 0.8); /* Light gray border */
+    -fx-border-width: 1; /* Border width */
+}
+
+/* Style for selected radio buttons */
+.radio-button {
+    -fx-font-size: 14px; /* Font size */
+    -fx-text-fill: rgba(0, 0, 0, 1); /* all black to be visible also over the background */
+}
+
+/* Style for selected radio button */
+.radio-button:selected {
+    -fx-text-fill: #007bff; /* Bootstrap primary color for selected */
+}
